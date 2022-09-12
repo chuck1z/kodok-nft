@@ -15,7 +15,7 @@ import { chartdata, LinePrimaryXAxis, LinePrimaryYAxis } from "./chartdata";
 const LineChart = () => {
   return (
     <div className="border gap-4 place-item-center h-fit ml-14 mr-14 mt-14 p-4 border-[#d7dbec] rounded-lg">
-      <span>Performance Overview</span>
+      <span className="font-extrabold text-xl text-indigo-900">Performance Overview</span>
       <span className="ml-4">(USDC)</span>
       <div className="mt-4">
         <ChartComponent
@@ -27,6 +27,7 @@ const LineChart = () => {
           tooltip={{
             enable: true,
             shared: true,
+            // eslint-disable-next-line no-template-curly-in-string
             format: "${point.y} USDC",
           }}
         >

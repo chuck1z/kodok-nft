@@ -11,11 +11,13 @@ import {
   Inject,
 } from "@syncfusion/ej2-react-grids";
 
-import { employeesGrid, employeesData, contextMenuItems } from "./assetdata";
+import { employeesGrid, employeesData, contextMenuItems } from "./treasurydata";
 const AssetInvestment = () => {
   return (
     <div className="border gap-4 place-item-center ml-14 mr-14 mt-14 p-4 border-[#d7dbec] rounded-lg overflow-x-auto">
-      <span className="font-extrabold text-xl text-indigo-900">Performance Overview</span>
+      <span className="font-extrabold text-xl text-indigo-900">
+        Performance Overview
+      </span>
       <GridComponent
         className="mt-4"
         id="gridcomp"

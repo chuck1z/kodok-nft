@@ -6,3 +6,4 @@ export { default as Footer } from "./Footer";
 export { default as Header } from "./Header";
 export { default as LineChart } from "./LineChart";
 export { default as AssetInvestment } from "./AssetInvestment";
+export { default as UntilizedTreasury } from "./UnutilizedTreasury"
